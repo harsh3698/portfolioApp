@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { certifications } from "../data";
@@ -7,19 +5,19 @@ import Navbar from "./Navbar";
 
 function Certifications() {
   return (
-    <div style={{ height: "110vh" }}>
+    <div style={{ height: "150vh" }}>
       <section id="certifications">
         <Navbar />
-        <br/>
-        <div className="container mx-auto ">
+        <div className="container mx-auto px-10 py-10">
           <div className="text-center mb-20">
             <ChipIcon className="w-10 inline-block mb-4" />
             <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-              Certifications Undertaken
+              Certifications & Papers Published
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               I have undertaken certifications in the field of data science and
-              front end web
+              front end web development and also have a research paper published
+              under my name
             </p>
           </div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -41,5 +39,3 @@ function Certifications() {
 }
 
 export default Certifications;
-
-
