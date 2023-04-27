@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function Certifications() {
   return (
-    <div style={{ height: "150vh" }}>
+    <div style={{ height: "100vh" }}>
       <section id="certifications">
         <Navbar />
         <div className="container mx-auto px-10 py-10">
