@@ -53,6 +53,7 @@ function Navbar() {
           <a
             href="https://www.linkedin.com/in/harsh-934894124/"
             target="_blank"
+            rel="noreferrer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +65,7 @@ function Navbar() {
             </svg>
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://github.com/harsh3698" target="_blank">
+          <a href="https://github.com/harsh3698" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-7 w-7"
