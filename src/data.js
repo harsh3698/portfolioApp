@@ -34,4 +34,4 @@ export const skills = ['HTML', 'CSS', 'JavaScript', 'mongoDB', 'ReactJs', 'Pytho
 
 export const skillsSVG = ['']
 
-export const certifications = ['Infosys Certified Front End Web Developer', 'Infosys Certified Mongo Developer','IBM Data Science Professional Certificate', 'Azure AI-900', 'Coursera Machine Learning', 'Coursera Deep Learning'];
+export const certifications = ['Infosys Certified Front End Web Developer', 'Infosys Certified Mongo Developer','IBM Data Science Professional Certificate', 'Azure AI-900', 'Coursera Machine Learning', 'Coursera Deep Learning', 'Smart Attendance Based Decision Support System for Mid-day Meal Scheme (IEEE)'];
