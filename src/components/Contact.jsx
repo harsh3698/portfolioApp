@@ -36,7 +36,7 @@ function Contact() {
             netlify
             onSubmit={handleSubmit}
             name="contact"
-            className="ml-60 container flex flex-col justify-center"
+            className="lg:ml-60 sm:-ml-10 md:ml-60 container flex flex-col justify-center"
           >
             <br />
             <h2
@@ -45,13 +45,13 @@ function Contact() {
             >
               Wanna reach out?
             </h2>
-            <p className="leading relaxed mb-5">
+            <p className="leading relaxed mb-5 ">
               Want to work on cool projects with me?
               <br /> Please reach out by filling out this form <br />
               and I will revert back within a business day!
             </p>
             {/* <div className="row" style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}> */}
-            <div className="relative mb-4" style={{ width: "50%" }}>
+            <div className="relative mb-4" style={{ width: "100%" }}>
               <label htmlFor="name" className="leading-7 text-sm text-gray-400">
                 Name
               </label>
@@ -63,7 +63,7 @@ function Contact() {
                 className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
-            <div className="relative mb-4" style={{ width: "50%" }}>
+            <div className="relative mb-4" style={{ width: "100%" }}>
               <label
                 htmlFor="email"
                 className="leading-7 text-sm text-gray-400"
@@ -77,21 +77,8 @@ function Contact() {
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
-              {/* </div> */}
-              {/* <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-                Phone
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                onChange={(e) => setName(e.target.value)}
-                className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div> */}
             </div>
-            <div className="relative mb-4" style={{ width: "50%" }}>
+            <div className="relative mb-4" style={{ width: "100%" }}>
               <label
                 htmlFor="message"
                 className="leading-7 text-sm text-gray-400"
@@ -114,13 +101,13 @@ function Contact() {
             </button>
           </form>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6 sm:min-w-sm">
+        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6 sm:min-w-sm">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded md:hidden hidden md:block"
             alt="hero"
             src="https://preview.redd.it/zyxtnv0lz0061.jpg?auto=webp&s=bc7711e877bb69624c263b74ec1d0828641baeb2"
           ></img>
-        </div>
+        </div> */}
       </div>
       {/* <a href="/" className=" flex justify-center text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">&nbsp;&nbsp;Go to</a> */}
     </section>
