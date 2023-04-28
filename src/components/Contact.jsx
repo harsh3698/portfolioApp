@@ -29,7 +29,7 @@ function Contact() {
       <Navbar />
       <div
         className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center"
-        style={{ height: "85.3vh" }}
+    {/*style={{ height: "85.3vh" }}*/}
       >
         <div className="flex lg:w-4/5 sm:mb-2 -mx-40">
           <form
