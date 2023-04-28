@@ -4,7 +4,7 @@ import About from './components/About'
 
 export const Home = () => {
   return (
-    <div style={{height:"120dvh"}}>
+    <div style={{height:"100dvh"}}>
         <Navbar/>
         <About/>
     </div>
