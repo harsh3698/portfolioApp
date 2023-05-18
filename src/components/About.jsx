@@ -13,9 +13,8 @@ function About() {
             build amazing apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I have worked as an Identity and Access Management Consultant domain
-            and have an experience of approx 2 years in the field as a
-            techno-functional consultant
+            I have worked as a Front end Developer (ReactJs) and as an Identity and Access Management Consultant
+    and have an experience of approx 2.5 years in the IT field 
           </p>
           <div className="flex justify-center">
     <a
